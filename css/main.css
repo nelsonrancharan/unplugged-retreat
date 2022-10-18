@@ -88,6 +88,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+   .content-wrapper{
+    width:90%;
+    margin:50px 0;
+  }
+
 /* ----------------- BASE HEADER - FOOTER STYLES ---------------------------- */
 
 header, footer{
@@ -98,12 +104,27 @@ header, footer{
   flex-flow: row wrap;
 }
 
+header {
+
+  padding:15px 0;
+
+}
+
 header .content-wrapper {
 
   display:flex;
   justify-content: center;
   align-items:center;
   flex-flow: row wrap;
+  margin:0;
+}
+
+.header-dvider{
+
+  width:100%;
+  height:1px;
+  margin:10px 0 20px 0;
+
 }
 
 header nav {
@@ -112,13 +133,48 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+
 }
 
 header nav ul{
 
   display:flex;
   justify-content:space-around;
+  width:100%;
+  
 
+}
+
+
+footer {
+
+  flex-direction: column;
+
+}
+
+footer p{
+
+  margin:0;
+}
+
+footer .content-wrapper{
+
+  width:55%;
+  margin:50px 0;
+}
+
+footer .contact {
+
+  margin-bottom:50px;
+
+}
+
+footer .social-icons{
+
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
 }
 
 footer .social-icons p{
@@ -126,6 +182,12 @@ footer .social-icons p{
   display:flex;
   justify-content:center;
   align-items:center;
+
+}
+
+footer .copyright{
+
+  margin:20px 0;
 
 }
 
@@ -155,7 +217,18 @@ aside {
   display:flex;
   justify-content:center;
   flex-flow: row wrap;
+  
+}
 
+.features h2{
+
+  margin-bottom:60px;
+}
+
+.features article{
+
+  width:63%;
+  margin: 30px 0;
 }
 
 .features .features-items {
@@ -164,8 +237,16 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width:50%;
 
 }
+
+.features p{
+
+  margin:0;
+}
+
+
 
 /* ----------------------------REVIEWS ----------------------------------------- */
 
@@ -176,6 +257,17 @@ aside {
   flex-flow: row wrap;
 }
 
+.reviews h2{
+
+  margin-bottom:40px;
+
+}
+
+.reviews h3{
+
+  width:55%;
+  margin:20px 0;
+}
 /* =============================================================================
    ABOUT PAGE 
    ============================================================================= */
@@ -195,6 +287,13 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  
+
+}
+
+.contact-content p{
+
+  margin:0;
 
 }
 
@@ -217,7 +316,20 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    
+    margin:50px 0 0 0;
+
+   }
+
+   faq h2{
+
+    margin-bottom:40px;
+
+   }
+
+   faq-content {
+
+    margin-bottom:50px;
+
    }
 
 
